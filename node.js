@@ -37,7 +37,8 @@ module.exports =
     "no-lonely-if": 2,
     "no-negated-condition": 2,
     "no-nested-ternary": 2,
-    "quotes": [2, "double"]
+    "quotes": [2, "double"],
+    "space-before-function-paren": [2, {"anonymous": "never", "named": "never"}]
   },
   "env":
   {

@@ -6,11 +6,37 @@ module.exports =
   {
     "no-console": 0,
     "space-infix-ops": 2,
-    "linebreak-style": [2, "unix"],
-    "semi": [2, "always"],
-    "comma-spacing": [2, {"before": false, "after": true}],
-    "no-unused-vars": [2, { "args": "all", "vars": "all"}],
-    "complexity": [2, 8],
+    "linebreak-style":
+    [
+      2,
+      "unix"
+    ],
+    "semi":
+    [
+      2,
+      "always"
+    ],
+    "comma-spacing":
+    [
+      2,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "no-unused-vars":
+    [
+      2,
+      {
+        "args": "all",
+        "vars": "all"
+      }
+    ],
+    "complexity":
+    [
+      2,
+      8
+    ],
     "no-else-return": 2,
     "no-empty": 2,
     "no-cond-assign": 2,
@@ -37,8 +63,42 @@ module.exports =
     "no-lonely-if": 2,
     "no-negated-condition": 2,
     "no-nested-ternary": 2,
-    "quotes": [2, "double"],
-    "space-before-function-paren": [2, {"anonymous": "never", "named": "never"}]
+    "quotes":
+    [
+      2,
+      "double"
+    ],
+    "space-before-function-paren":
+    [
+      2,
+      {
+        "anonymous": "never",
+        "named": "never"
+      }
+    ],
+    "object-curly-newline":
+    [
+      "error",
+      {
+        "ObjectExpression": "always",
+        "ObjectPattern":
+        {
+          "multiline": true
+        }
+      }
+    ],
+    "object-property-newline": 2,
+    "no-sync": 2,
+    "brace-style":
+    [
+      2,
+      "allman"
+    ],
+    "space-in-parens":
+    [
+      2,
+      "never"
+    ]
   },
   "env":
   {

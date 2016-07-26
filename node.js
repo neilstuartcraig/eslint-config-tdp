@@ -37,27 +37,7 @@ module.exports =
     "no-lonely-if": 2,
     "no-negated-condition": 2,
     "no-nested-ternary": 2,
-    "quotes": [2, "double"],
-    "ava/assertion-arguments": "error",
-    "ava/assertion-message": ["error", "always"],
-    "ava/max-asserts": ["error", 10],
-    "ava/no-cb-test": 2,
-    "ava/no-identical-title": "error",
-    "ava/no-ignored-test-files": "error",
-    "ava/no-invalid-end": "error",
-    "ava/no-only-test": "error",
-    "ava/no-skip-assert": "error",
-    "ava/no-skip-test": "error",
-    "ava/no-statement-after-end": "error",
-    "ava/no-todo-test": "warn",
-    "ava/no-unknown-modifiers": "error",
-    "ava/prefer-power-assert": "off",
-    "ava/test-ended": "error",
-    "ava/test-title": ["error", "if-multiple"],
-    "ava/use-t-well": "error",
-    "ava/use-t": "error",
-    "ava/use-test": "error",
-    "ava/use-true-false": "error"
+    "quotes": [2, "double"]
   },
   "env":
   {
@@ -67,19 +47,17 @@ module.exports =
   },
   "extends":
   [
-    "eslint:recommended",
-    "plugin:ava/recommended"
+    "eslint:recommended"
   ],
   "parserOptions":
   {
     "sourceType": "module"
-  },
-  "ecmaFeatures":
-  {
-    "experimentalObjectRestSpread": true
+    "ecmaFeatures":
+    {
+      "experimentalObjectRestSpread": true
+    }
   },
   "plugins":
   [
-    "ava"
   ]
 };

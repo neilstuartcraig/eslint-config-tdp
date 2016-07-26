@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-tdp",
   "version": "1.0.0",
-  "description": "My eslint shareable config",
-  "main": "index.js",
+  "description": "My modular eslint shareable configs for Node, AVA & React",
+  "main": "node.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +14,11 @@
     "eslint",
     "eslintrc",
     "config",
-    "lint"
+    "lint",
+    "tdp",
+    "node",
+    "ava",
+    "react"
   ],
   "author": "Neil Craig <neil.craig@thedotproduct.org>",
   "license": "MIT",

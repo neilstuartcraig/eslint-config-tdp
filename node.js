@@ -51,7 +51,7 @@ module.exports =
   ],
   "parserOptions":
   {
-    "sourceType": "module"
+    "sourceType": "module",
     "ecmaFeatures":
     {
       "experimentalObjectRestSpread": true

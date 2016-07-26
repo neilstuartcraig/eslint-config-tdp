@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-tdp",
+  "version": "1.0.0",
+  "description": "My eslint shareable config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilstuartcraig/eslint-config-tdp.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "config",
+    "lint"
+  ],
+  "author": "Neil Craig <neil.craig@thedotproduct.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neilstuartcraig/eslint-config-tdp/issues"
+  },
+  "homepage": "https://github.com/neilstuartcraig/eslint-config-tdp#readme"
+}

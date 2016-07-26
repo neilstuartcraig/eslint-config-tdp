@@ -7,7 +7,7 @@ See '[using a shareable config](http://eslint.org/docs/developer-guide/shareable
 
 The specifics for `eslint-config-tdp` (assuming you've got an NPM project set up already) are:
 
-### 1. Add dependency
+### 1. Add `eslint-config-tdp` as a dependency for your NPM package
 
 ```
 npm install --save-dev eslint-config-tdp

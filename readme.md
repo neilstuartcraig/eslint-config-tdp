@@ -3,7 +3,7 @@
 This is my [ESLint](http://eslint.org/) [shareable config file](http://eslint.org/docs/developer-guide/shareable-configs). You're very welcome to use this and to contribute to it but I'm going to be pretty selfish with any changes/updates as config is a personal thing and I have a slightly odd programming style so what works for me probably isn't great for many/most others - or maybe it is, let me know!
 
 ## Using eslint-config-tdp
-See '[using a shareable config](http://eslint.org/docs/developer-guide/shareable-configs#using-a-shareable-config)' on eslint.org. tl;dr: it's essentially adding this package as a dependency to your NPM package and using the eslint [extends](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) syntax.
+For general guidance and background, see '[using a shareable config](http://eslint.org/docs/developer-guide/shareable-configs#using-a-shareable-config)' on eslint.org. 
 
 The specifics for `eslint-config-tdp` (assuming you've got an NPM project set up already) are:
 
@@ -17,8 +17,8 @@ npm install --save-dev eslint-config-tdp
 
 Add the following to your `package.json` file:
 ```
-...
 {
+...
   "eslintConfig":
   {
     "extends":
@@ -28,13 +28,13 @@ Add the following to your `package.json` file:
       "tdp/ava"
     }
   }
+...  
 }
-...
 ```
 
-If you already have an `eslintConfig` property in your `package.json`, just add to it.
+If you already have an `eslintConfig` property in your `package.json`, just add the above to it (`eslintConfig` needs to be a root-level property of your `package.json`) - you can also add any custom rules here (in a `rules` property inside `eslintConfig`).
 
-You can remove any rulesets you don't need e.g., if you're not using `react`, remove `"tdp/react"`.
+You can remove any of the `tdp/...` rulesets that you don't need e.g., if you're not using `react`, remove `"tdp/react"`.
 
 
 ## Contributing

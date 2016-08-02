@@ -25,7 +25,8 @@ Add the following to your `package.json` file:
     [
       "tdp/node",
       "tdp/react",
-      "tdp/ava"
+      "tdp/ava",
+      "tdp/flow-types"
     ]
   }
 ...  

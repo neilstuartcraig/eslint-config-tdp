@@ -10,8 +10,8 @@ module.exports =
   {
     "ava/assertion-arguments": "error",
     "ava/assertion-message": ["error", "always"],
-    "ava/max-asserts": ["error", 10],
-    "ava/no-cb-test": 2,
+    "ava/max-asserts": ["error", 15],
+    "ava/no-cb-test": 0,
     "ava/no-identical-title": "error",
     "ava/no-ignored-test-files": "error",
     "ava/no-invalid-end": "error",

@@ -66,7 +66,10 @@ module.exports =
     "quotes":
     [
       2,
-      "double"
+      "double",
+      {
+        "allowTemplateLiterals": true
+      }
     ],
     "space-before-function-paren":
     [

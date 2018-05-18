@@ -44,7 +44,7 @@ module.exports =
     "no-func-assign": 2,
     "no-unreachable": 2,
     "valid-typeof": 2,
-    "consistent-return": 2,
+    "consistent-return": 0,
     "curly": 2,
     "no-extra-bind": 2,
     "no-lone-blocks": 2,
@@ -81,14 +81,7 @@ module.exports =
     ],
     "object-curly-newline":
     [
-      "error",
-      {
-        "ObjectExpression": "always",
-        "ObjectPattern":
-        {
-          "multiline": true
-        }
-      }
+      0
     ],
     "object-property-newline": 2,
     "no-sync": 2,

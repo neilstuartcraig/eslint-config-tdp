@@ -6,7 +6,7 @@ module.exports =
     "rules":
     {
         "babel/generator-star-spacing": 1,
-        "babel/new-cap": 1,
+        "babel/new-cap": 0,
         "babel/array-bracket-spacing": 1,
         "babel/object-curly-spacing": 1,
         "babel/object-shorthand": ["error", "never"],
